@@ -6,7 +6,7 @@ const Welcome = () => {
       {/* Grid container for image and content */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Image section */}
-        <div className="h-[400px] md:h-[500px] md:pt-10 md:w-[90%] md:pl-30 overflow-hidden rounded-lg bg-white">
+        <div className="h-[400px] md:h-[500px] md:pt-10 md:w-[90%] md:pl-30 md:mt:20 overflow-hidden rounded-lg bg-white">
           <img
             src={WelcomeImage}
             alt="Welcome to Sky Aqua Enterprise"
